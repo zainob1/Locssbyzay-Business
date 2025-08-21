@@ -1,0 +1,107 @@
+.logo {
+    width: 100px;
+    height:auto;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+}
+#navbar{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px; 
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size:16 px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #C3B1E1;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: white
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:#C3B1E1;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+html, body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55vh;
+    width: 100%;
+    padding: 40px 40px 0 80px;
+} 
+.intro{
+    color:black;
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.LBZlogo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 90px; 
+    padding-right: 80px;
+}
+.LBZlogo img{
+    width: 850px; /* increase this value for a larger image */
+    height: 590px;
+}
+#mainpage h1{
+    padding-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+#mainpage h4{
+    padding-bottom: 0 px;
+    margin-top: -30px;
+    color:#C3B1E1;
+    font-family:'Brush Script MT', cursive;
+    font-size: 30px;
+}
+#mainpage button{
+    width: 130px;
+    height: 60px;
+    border: 2px solid #C3B1E1;
+    background: black;
+    color: white;
+    font-size: px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+/* If you have a footer element */
