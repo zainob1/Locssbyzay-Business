@@ -9,8 +9,9 @@ Market: People with locs, natural hair clients, and anyone seeking professional 
 
 Scope: Appointment booking system, services listings with pricing, client gallery, contact info
 
-Product Spec
-
-Walkthrough Vid(loom)
-
 Core Features
+- Homepage
+- Gallery(Hair inspo)
+- Services and how to book
+- Online Booking system
+- Contact info
